@@ -1,0 +1,14 @@
+body{
+    color: white;
+}
+
+/* --------------
+    COLUMS STYLE
+---------------*/
+[class*="col"]{
+    background-color: #0091FF;
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
+}
