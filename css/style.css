@@ -12,3 +12,13 @@ body{
     line-height: 50px;
     border: 1px solid white;
 }
+
+.col-nested{
+    background-color: lightgreen;
+    border: 1px solid #0091FF;
+
+}
+
+.col-padding{
+    padding: 5px;
+}
