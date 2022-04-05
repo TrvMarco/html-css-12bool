@@ -4,18 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- framework -->
-    <link rel="stylesheet" href="12bool.css">
+    <link rel="stylesheet" href="css/12bool.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <!-- testata con logo -->
-        <header>
-            <div>
-                <img src="img/logo.png" alt="logo origin">
+    <!-- testata con logo -->
+    <header>
+        <div class="header-left">
+            <i class="fa-solid fa-bars"></i>
+            <img src="img/iliad-logo.png" alt="logo iliad">
+        </div> 
+        <div class="header-right">    
+            <i class="fa-regular fa-user"></i><span>Area Personale</span>
+        </div> 
+    </header>
+    <main>
+        <!-- hero-login -->
+        <section class="hero hero-container">
+            <div class="login-area">
+                <h1>Accedi alla tua <br>
+                area personale</h1>
+                <div class="login-buttons">
+                    <form>
+                        <input class="imput-text" type="text" placeholder="ID Utente" >
+                        <input class="imput-text" type="text" placeholder="Password">
+                    </form>
+                    <button>ACCEDI</button>
+                </div>
             </div>
-        </header>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="border">
+                        <h5>Domande frequenti</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="border">
+                        <h5>Domande frequenti blabla</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="links">
+                        <h5>Lorem</h5>
+                        <ul>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="links">
+                        <h5>Lorem</h5>
+                        <ul>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="links">
+                        <h5>Lorem</h5>
+                        <ul>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
